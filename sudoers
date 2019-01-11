@@ -1,0 +1,5 @@
+#adds the IT group in AD to the Sudoers group allowing sudo access for IT memebrs. 
+#You can use any AD group or user here. 
+#I also like to add the user to the ADM group if they are going to be using the workstation as their daily driver.
+
+%IT ALL=(ALL)	ALL
