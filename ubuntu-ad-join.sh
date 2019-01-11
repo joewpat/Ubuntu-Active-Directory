@@ -22,7 +22,7 @@ apt install -y krb5-user samba sssd chrony openssh-server cifs-utils
 
 
 
-#mount the file share
+#mount the file share. mine are stored on a windows 2016 file server so I mount it with CIFS:
 
 
 sudo mount -t cifs '<path to share with configs>' /mnt -o user=administrator@example.tld
@@ -31,7 +31,7 @@ sudo mount -t cifs '<path to share with configs>' /mnt -o user=administrator@exa
 
 
 
-#copy config files
+#copy config files. 
 
 
 echo "copying NTP config files"
