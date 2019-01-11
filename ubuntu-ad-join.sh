@@ -8,7 +8,7 @@
 
 echo "Getting ready..."
 
-echo "The next step will install kerberos packages and needs user input. enter the domain >DOMAIN.LOCAL> IN ALL CAPS. That part is important"
+echo "The next step will install kerberos packages and needs user input. enter the domain <DOMAIN.LOCAL> IN ALL CAPS. That part is important"
 
 read -p "Press Enter to continue"
 
