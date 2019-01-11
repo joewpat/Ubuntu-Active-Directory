@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-#Ubuntu 18 quick config script by joe
+#Ubuntu 18 quick config script by joe. make it executable (chmod +x thisfile) and run it as root
 
 
 #this is for <helpdesk tech> so he don't forget
