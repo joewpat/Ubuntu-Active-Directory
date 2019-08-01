@@ -5,5 +5,5 @@ This script joins the designated AD Domain using the included configuration file
 
 This is tested and verified on Ubuntu 18.04. The steps for 16.04 were only slightly different.
 
-
-Each config file will need to be modified for your domain. 
+Most of the config files will need to be modified for your domain. 
+The placeholder will be DOMAIN.TLD for fields that need to be modified, generally.
