@@ -1,6 +1,5 @@
 #!/bin/bash
 #Ubuntu 18 quick config script by joe. make it executable (chmod +x thisfile) and run it as root
-#this is for <helpdesk tech> so he don't forget
 
 echo "The next step will install kerberos packages and needs user input. enter the domain <DOMAIN.LOCAL> IN ALL CAPS. That part is important"
 
