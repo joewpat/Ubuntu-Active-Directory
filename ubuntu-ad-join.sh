@@ -16,13 +16,13 @@ sudo mount -t cifs '<path to share with configs>' /mnt -o user=administrator@exa
 
 echo "copying config files"
 
-cp /mnt/chrony.conf /etc/chrony/chrony.conf
-cp /mnt/common-session /etc/pam.d/common-session
-cp /mnt/krb5.conf /etc/krb5.conf
-cp /mnt/nsswitch.conf /etc/nsswitch.conf
-cp /mnt/smb.conf /etc/samba/smb.conf
-cp /mnt/sssd.conf /etc/sssd/sssd.conf
-cp /mnt/sudoers /etc/sudoers.d/sudoers
+cp chrony.conf /etc/chrony/chrony.conf
+cp common-session /etc/pam.d/common-session
+cp krb5.conf /etc/krb5.conf
+cp nsswitch.conf /etc/nsswitch.conf
+cp smb.conf /etc/samba/smb.conf
+cp sssd.conf /etc/sssd/sssd.conf
+cp sudoers /etc/sudoers.d/sudoers
 
 echo "modifying SSSD configuration file permissions"
 
